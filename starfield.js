@@ -9,6 +9,6 @@ function setup() {
 
 function draw() {
   background("white");
-  fill("green");
+  fill("red");
   square(frameCount % 500, 200, 100);
 }
