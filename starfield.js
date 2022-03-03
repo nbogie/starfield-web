@@ -10,5 +10,7 @@ function setup() {
 function draw() {
   background("white");
   fill("red");
-  square(frameCount % 500, 200, 100);
+  if (frameCount < 200) {
+    square(frameCount % 500, 200, 100);
+  }
 }
